@@ -27,8 +27,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6335120725"))
 PORT = os.environ.get("PORT", "9001")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://oceanbot:ocean@cluster0.hwz6gjp.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://navex069:npRq1isHQtEW6WVG@nav.5hckjjq.mongodb.net/?retryWrites=true&w=majority&appName=nav")
+DB_NAME = os.environ.get("DATABASE_NAME", "Navex")
 
 #force sub channel id, if you want enable force sub
 #FORCE_SUB_CHANNELS = int(os.environ.get("FORCE_SUB_CHANNELS", "-1001952741671"))
